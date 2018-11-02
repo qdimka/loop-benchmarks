@@ -4,3 +4,5 @@
 \bin
 \obj
 \debug
+/Loop.Benchmarks.Console/.vs/Loop.Benchmarks.Console/v15/Server/sqlite3
+*.suo
