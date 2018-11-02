@@ -2,7 +2,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace Loop.Benchmarks.BenchMarks
 {
-	[ClrJob]
+	[CoreJob(baseline:true), ClrJob]
 	[RPlotExporter, RankColumn]
 	public class LoopBenchmark
 	{
